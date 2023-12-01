@@ -1,0 +1,36 @@
+<!-- edit.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edit Student</title>
+</head>
+<body>
+  <h2>Edit Student</h2>
+  <form id="editForm">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="major">Major:</label>
+    <input type="text" id="major" name="major" required>
+
+    <label for="enrollmentDate">Enrollment Date:</label>
+    <input type="date" id="enrollmentDate" name="enrollmentDate" required>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <button type="submit">Update</button>
+  </form>
+
+  <script src="./javascript/edit.js"></script>
+</body>
+</html>
